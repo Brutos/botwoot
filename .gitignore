@@ -157,8 +157,8 @@ TFLEnhancedModel = require('app/base/Class').extend({
             + '#now-playing-value{color:#66FFFF;}'
             + '#room-score-value{color:#66FFFF;}'
             + '#chat {color:#B0B0B0;}'
-            + '.chat-cohost {color:#9A50FF;}'
-            + '.chat-host {color:#4CFF00;}'
+            + '.chat-cohost {color:#B0B0B0;}'
+            + '.chat-host {color:#B0B0B0;}'
             + '.chat-emote {color:#66FFFF;}'    
             + '.chat-emote .chat-from {color:#66FFFF;}'
             + '.chat-host {background-image: url("http://i.imgur.com/FIRn1Lp.png");}'
@@ -177,7 +177,7 @@ TFLEnhancedModel = require('app/base/Class').extend({
             + '.chat-manager {color:#20F92E}'
             + '.chat-message .chat-from-host, .chat-mention .chat-from-host {color:#FF4000 !important;}'
             + '.chat-message .chat-from-cohost, .chat-mention .chat-from-cohost {color:#0D00FF !important;}'
-            + '.chat-moderation .chat-from {color:#E90E82;}'
+            + '.chat-moderation .chat-from {color:#9A50FF;}'
             + '.chat-moderation {color:#E90E82;}'
             + '.chat-text a:link {color:#FCFF00;}'
             + '.chat-text a:visited {color:#22FF00;}'
@@ -197,7 +197,7 @@ initPopout : function(){
             styles+= '#now-playing-value{color:#66FFFF}';
             styles+= '#room-score-value{color:#66FFFF}';
             styles+= '#chat {color:#00D1FF}';
-            styles+= '.chat-cohost {color:#B0B0B0}';
+            styles+= '.chat-cohost {color:#9A50FF}';
             styles+= '.chat-host {color:#4CFF00}';
             styles+= '.chat-emote {color:#FCFF00}';    
             styles+= '.chat-emote .chat-from {color:#FCFF00}';
