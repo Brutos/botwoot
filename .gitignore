@@ -197,7 +197,7 @@ initPopout : function(){
             styles+= '#now-playing-value{color:#66FFFF}';
             styles+= '#room-score-value{color:#66FFFF}';
             styles+= '#chat {color:#00D1FF}';
-            styles+= '.chat-cohost {color:#00FF95}';
+            styles+= '.chat-cohost {color:#B0B0B0}';
             styles+= '.chat-host {color:#4CFF00}';
             styles+= '.chat-emote {color:#FCFF00}';    
             styles+= '.chat-emote .chat-from {color:#FCFF00}';
@@ -217,7 +217,7 @@ initPopout : function(){
             styles+= '.chat-from-you {padding-left:17px}';
             styles+= '.chat-manager {color:#20F92E}';
             styles+= '.chat-message .chat-from-host, .chat-mention .chat-from-host {color:#FF4000 !important}';
-            styles+= '.chat-message .chat-from-cohost, .chat-mention .chat-from-cohost {color:#0D00FF !important}';
+            styles+= '.chat-message .chat-from-cohost, .chat-mention .chat-from-cohost {color:#B0B0B0 !important}';
             styles+= '.chat-moderation .chat-from {color:#00FF22}';
             styles+= '.chat-moderation {color:#00fF22}';
             styles+= '.chat-text a:link {color:#FCFF00}';
